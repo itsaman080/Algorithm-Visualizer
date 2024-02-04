@@ -1,0 +1,95 @@
+.linkedList{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(5px,1fr));
+    border:2px solid rgb(239, 0, 0);
+    gap: 1px;
+    padding: 10px;
+
+}
+body{
+    background-color: rgb(4, 0, 83);
+}
+.bodyM{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+h1{
+    color: #f67700;
+}
+input{
+  background-color: rgb(255, 255, 255);
+  border-radius: 100px;
+  padding: 1.2%;
+}
+
+.node{
+    border: 2px solid rgb(242, 48, 4);
+    padding: 10px;
+    text-align: center;
+    color: rgb(189, 10, 129);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 5px;
+}
+.arrow{
+    text-align: center;
+    padding: 10px;
+    color: white;
+
+}
+
+.container{
+    display: flex;
+    border: 2px dashed #00ff04;
+    border-radius: 40px;
+    align-items: center;
+}
+.stack , .count{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 10px;
+}
+.count{
+    flex: 0 0 auto;
+}
+.stack{
+
+    flex: 1
+}
+.num{
+    color: #2a2400;
+    padding: 10px;
+    flex:1px
+}
+.queue{
+    display: flex;
+    border: 2px solid #7e0058;
+    padding: 10px;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    gap: 10px;
+    background-color: rgb(255, 227, 13);
+    border-radius: 20px;
+
+}
+button{
+    padding: 10px;
+
+}
+.textFi{
+    text-align: center;
+}

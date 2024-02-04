@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <link rel="stylesheet" href="myStyle.css">
+
+
+    <script src="myjs.js"></script>
+</head>
+<body class="bodyM">
+<h1>Linked List</h1>
+<div class="linkedList">
+<!--space for storing inserted data-->
+
+
+</div>
+<div class="options">
+<input type="text" id="linkedListData" placeholder="Enter the data" class="textFi">
+    <div class="buttons">
+<button onclick="insertFirst(linkedListData.value)" id="LinkedListInsertFirst">insert first</button>
+
+<button onclick="insertLast(linkedListData.value)" id="LinkedListInsertLast">insert last</button>
+<button onclick="deleteFirst()" id="LinkedListDeleteFirst">delete first</button>
+
+<button onclick="deleteLast()" id="LinkedListDeleteLast">delete last</button>
+</div>
+</div>
+<h1>Stack</h1>
+<div class="container">
+<div class="count">
+
+
+</div>
+<div class="stack" >
+<!--space for storing inserted data-->
+
+
+</div>
+</div>
+<div class="options">
+    <input type="text" id="stackData" placeholder="Enter the data" class="textFi">
+    <div class="buttons">
+        <button onclick="push(stackData.value)" id="stackPush">push</button>
+        <button onclick="pop()" id="stackPop">pop</button>
+
+    </div>
+</div>
+<h1>Queue</h1>
+<div class="queue">
+<!--space for storing inserted data-->
+
+
+</div>
+<div class="options">
+    <input type="text" id="queueData" placeholder="Enter the data" class="textFi">
+    <div class="buttons">
+        <button onclick="enqueue(queueData.value)" id="queueEnqueue">Enqueue</button>
+        <button onclick="dequeue()" id="queueDequeue">Dequeue</button>
+
+    </div>
+
+</div>
+
+</body>
+</html>
